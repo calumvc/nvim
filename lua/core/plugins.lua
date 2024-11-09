@@ -19,6 +19,11 @@ return require('packer').startup(function(use)
   use 'nvim-treesitter/nvim-treesitter'
   use 'nvim-telescope/telescope.nvim'
   use 'Yazeed1s/oh-lucy.nvim'
+  use {
+    'williamboman/mason.nvim',
+    'williamboman/mason-lspconfig.nvim',
+    'neovim/nvim-lspconfig',
+  }
 
   if packer_bootstrap then
     require('packer').sync()
