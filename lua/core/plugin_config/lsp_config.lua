@@ -4,5 +4,7 @@ require("mason-lspconfig").setup({
 })
 
 require("lspconfig").ast_grep.setup {}
-require("lspconfig").hls.setup { filetypes = { "haskell", "lhaskell", "cabal" }, }
+require('lspconfig')['hls'].setup{
+  filetypes = { 'haskell', 'lhaskell', 'cabal' },
+}
 require("lspconfig").lua_ls.setup {}
