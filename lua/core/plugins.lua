@@ -30,7 +30,10 @@ return require('packer').startup(function(use)
     'neovim/nvim-lspconfig',
   }
   --use 'aserowy/tmux.nvim'
-  --use 'nvimdev/dashboard-nvim'
+  use {
+    'nvimdev/dashboard-nvim',
+    event  = 'VimEnter'
+  }
 
   if packer_bootstrap then
     require('packer').sync()
