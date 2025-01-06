@@ -1,4 +1,4 @@
-require('dashboard').setup({
+require("dashboard").setup({
 
     theme = 'doom',
     config = {
@@ -64,6 +64,7 @@ require('dashboard').setup({
         },
     },
     footer = {
+      "",
       "",
       "Welcome back Sir",
       ""

@@ -1,13 +1,15 @@
 require'nvim-treesitter.configs'.setup {
-  ensure_installed = { 
+  ensure_installed = {
     "c",
     "css",
     "gitignore",
-    "haskell", 
-    "lua", 
+    "haskell",
+    "lua",
     "php",
-    "python", 
+    "python",
     "sql",
+    "tsx",
+    "typescript",
     "vim" },
 
   sync_install = false,
