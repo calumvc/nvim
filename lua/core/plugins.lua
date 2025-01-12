@@ -18,7 +18,7 @@ return require('packer').startup(function(use)
   use 'nvim-lualine/lualine.nvim'
   use 'nvim-treesitter/nvim-treesitter'
   use 'nvim-lua/plenary.nvim'
-  use 'Yazeed1s/oh-lucy.nvim'
+  use 'ficcdaf/ashen.nvim'
 
   -- completion
   use 'hrsh7th/nvim-cmp'
