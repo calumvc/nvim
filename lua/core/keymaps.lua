@@ -17,4 +17,7 @@ keymap.set("n", "sj", "<C-w>j")
 keymap.set("n", "sl", "<C-w>l")
 
 -- turn off highlighting
-keymap.set('n', '<leader>h', ':nohlsearch<CR>')
+keymap.set('n', '<leader>h', ':nohlsearch<Return>')
+
+-- shut window
+keymap.set('n', '<leader>q', ':q<Return>')

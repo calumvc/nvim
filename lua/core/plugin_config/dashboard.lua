@@ -1,3 +1,5 @@
+-- this file isnt called
+
 require("dashboard").setup({
 
     theme = 'doom',
@@ -66,7 +68,7 @@ require("dashboard").setup({
     footer = {
       "",
       "",
-      "Welcome back Sir",
+      "Welcome back",
       ""
     },
   }
