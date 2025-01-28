@@ -14,15 +14,12 @@ local packer_bootstrap = ensure_packer()
 return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
   use 'nvim-tree/nvim-tree.lua'
-  -- use 'nvim-neo-tree/neo-tree.nvim'
   use 'nvim-tree/nvim-web-devicons'
-  -- use 'MunifTanjim/nui.nvim'
   use 'nvim-lualine/lualine.nvim'
   use 'nvim-treesitter/nvim-treesitter'
   use 'nvim-lua/plenary.nvim'
   use 'nvim-telescope/telescope.nvim'
   use 'ficcdaf/ashen.nvim'
-  -- use 'yazeed1s/oh-lucy.nvim'
 
   -- completion
   use 'hrsh7th/nvim-cmp'
@@ -31,7 +28,7 @@ return require('packer').startup(function(use)
   use 'hrsh7th/cmp-nvim-lua'
   use 'hrsh7th/cmp-nvim-lsp'
 
-
+  -- lsp
   use {
     'williamboman/mason.nvim',
     'williamboman/mason-lspconfig.nvim',
@@ -125,7 +122,6 @@ return require('packer').startup(function(use)
       })
     end,
     }
-
 
   if packer_bootstrap then
     require('packer').sync()

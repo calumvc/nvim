@@ -4,11 +4,8 @@ require('lualine').setup {
     theme = 'auto',
   },
   sections = {
-    lualine_a = {
-      {
-        'filename',
-        path = 1,
-      }
-    }
+    lualine_a = { 'mode' },
+    lualine_b = { 'branch' },
+    lualine_c = { { 'filename', path = 1 } }
   }
 }
